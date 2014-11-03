@@ -1,0 +1,33 @@
+Machine conveyorBelt{
+	Statuses{ //valtozok
+		direction, isRunning;
+		speed;
+	}
+	Triggers{
+		 boxArrivedAtEnd;
+		 startBeltLeft;
+	}
+	Behaviors{ //belso fuggvenyek
+		
+		getDirection(){
+			return(direction);		
+		}
+		
+		isRunning(){
+			return(isRunning);
+		}
+		
+		getSpeed(){
+			return(speed);
+		}
+		
+		startBelt(!speed, !direction){
+		
+		}
+	}
+	Handlers{
+		BoxIsReady(lifter.boxReady){
+			print("A box is ready.");
+		}
+	}
+}
