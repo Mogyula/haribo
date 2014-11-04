@@ -5,6 +5,10 @@ options {
 	ASTLabelType=CommonTree;
 }
 
+tokens{
+	TEST;
+}
+
 @header {
 	package waiprprog;
 }
@@ -27,7 +31,7 @@ triggersource
 	
 sender : ID;
 	
-trigger	: ID;
+trigger	: sh=ID -> TEST[$sh];
 
 statdefs: statdef (',' statdef)* ';' -> statdef*;
 

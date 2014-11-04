@@ -1,6 +1,4 @@
-package waiprprog;
-
-// $ANTLR 3.5.2 Waipr.g 2014-11-04 01:36:08
+// $ANTLR 3.5.1 C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g 2014-11-04 01:32:58
 
 import org.antlr.runtime.*;
 import java.util.Stack;
@@ -47,15 +45,15 @@ public class WaiprLexer extends Lexer {
 	public WaiprLexer(CharStream input, RecognizerSharedState state) {
 		super(input,state);
 	}
-	@Override public String getGrammarFileName() { return "Waipr.g"; }
+	@Override public String getGrammarFileName() { return "C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g"; }
 
 	// $ANTLR start "T__14"
 	public final void mT__14() throws RecognitionException {
 		try {
 			int _type = T__14;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// Waipr.g:2:7: ( '!' )
-			// Waipr.g:2:9: '!'
+			// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:2:7: ( '!' )
+			// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:2:9: '!'
 			{
 			match('!'); 
 			}
@@ -74,8 +72,8 @@ public class WaiprLexer extends Lexer {
 		try {
 			int _type = T__15;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// Waipr.g:3:7: ( '(' )
-			// Waipr.g:3:9: '('
+			// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:3:7: ( '(' )
+			// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:3:9: '('
 			{
 			match('('); 
 			}
@@ -94,8 +92,8 @@ public class WaiprLexer extends Lexer {
 		try {
 			int _type = T__16;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// Waipr.g:4:7: ( ')' )
-			// Waipr.g:4:9: ')'
+			// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:4:7: ( ')' )
+			// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:4:9: ')'
 			{
 			match(')'); 
 			}
@@ -114,8 +112,8 @@ public class WaiprLexer extends Lexer {
 		try {
 			int _type = T__17;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// Waipr.g:5:7: ( ',' )
-			// Waipr.g:5:9: ','
+			// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:5:7: ( ',' )
+			// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:5:9: ','
 			{
 			match(','); 
 			}
@@ -134,8 +132,8 @@ public class WaiprLexer extends Lexer {
 		try {
 			int _type = T__18;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// Waipr.g:6:7: ( '.' )
-			// Waipr.g:6:9: '.'
+			// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:6:7: ( '.' )
+			// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:6:9: '.'
 			{
 			match('.'); 
 			}
@@ -154,8 +152,8 @@ public class WaiprLexer extends Lexer {
 		try {
 			int _type = T__19;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// Waipr.g:7:7: ( 'Behaviors' )
-			// Waipr.g:7:9: 'Behaviors'
+			// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:7:7: ( 'Behaviors' )
+			// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:7:9: 'Behaviors'
 			{
 			match("Behaviors"); 
 
@@ -175,8 +173,8 @@ public class WaiprLexer extends Lexer {
 		try {
 			int _type = T__20;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// Waipr.g:8:7: ( 'Behaviours' )
-			// Waipr.g:8:9: 'Behaviours'
+			// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:8:7: ( 'Behaviours' )
+			// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:8:9: 'Behaviours'
 			{
 			match("Behaviours"); 
 
@@ -196,8 +194,8 @@ public class WaiprLexer extends Lexer {
 		try {
 			int _type = T__21;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// Waipr.g:9:7: ( 'Handlers' )
-			// Waipr.g:9:9: 'Handlers'
+			// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:9:7: ( 'Handlers' )
+			// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:9:9: 'Handlers'
 			{
 			match("Handlers"); 
 
@@ -217,8 +215,8 @@ public class WaiprLexer extends Lexer {
 		try {
 			int _type = T__22;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// Waipr.g:10:7: ( 'Machine' )
-			// Waipr.g:10:9: 'Machine'
+			// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:10:7: ( 'Machine' )
+			// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:10:9: 'Machine'
 			{
 			match("Machine"); 
 
@@ -238,8 +236,8 @@ public class WaiprLexer extends Lexer {
 		try {
 			int _type = T__23;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// Waipr.g:11:7: ( 'Statuses' )
-			// Waipr.g:11:9: 'Statuses'
+			// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:11:7: ( 'Statuses' )
+			// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:11:9: 'Statuses'
 			{
 			match("Statuses"); 
 
@@ -259,8 +257,8 @@ public class WaiprLexer extends Lexer {
 		try {
 			int _type = T__24;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// Waipr.g:12:7: ( 'Triggers' )
-			// Waipr.g:12:9: 'Triggers'
+			// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:12:7: ( 'Triggers' )
+			// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:12:9: 'Triggers'
 			{
 			match("Triggers"); 
 
@@ -280,8 +278,8 @@ public class WaiprLexer extends Lexer {
 		try {
 			int _type = T__25;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// Waipr.g:13:7: ( '{' )
-			// Waipr.g:13:9: '{'
+			// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:13:7: ( '{' )
+			// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:13:9: '{'
 			{
 			match('{'); 
 			}
@@ -300,8 +298,8 @@ public class WaiprLexer extends Lexer {
 		try {
 			int _type = T__26;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// Waipr.g:14:7: ( '}' )
-			// Waipr.g:14:9: '}'
+			// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:14:7: ( '}' )
+			// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:14:9: '}'
 			{
 			match('}'); 
 			}
@@ -320,10 +318,10 @@ public class WaiprLexer extends Lexer {
 		try {
 			int _type = ID;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// Waipr.g:64:5: ( ( 'a' .. 'z' | 'A' .. 'Z' )+ )
-			// Waipr.g:64:7: ( 'a' .. 'z' | 'A' .. 'Z' )+
+			// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:64:5: ( ( 'a' .. 'z' | 'A' .. 'Z' )+ )
+			// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:64:7: ( 'a' .. 'z' | 'A' .. 'Z' )+
 			{
-			// Waipr.g:64:7: ( 'a' .. 'z' | 'A' .. 'Z' )+
+			// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:64:7: ( 'a' .. 'z' | 'A' .. 'Z' )+
 			int cnt1=0;
 			loop1:
 			while (true) {
@@ -335,7 +333,7 @@ public class WaiprLexer extends Lexer {
 
 				switch (alt1) {
 				case 1 :
-					// Waipr.g:
+					// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:
 					{
 					if ( (input.LA(1) >= 'A' && input.LA(1) <= 'Z')||(input.LA(1) >= 'a' && input.LA(1) <= 'z') ) {
 						input.consume();
@@ -372,8 +370,8 @@ public class WaiprLexer extends Lexer {
 		try {
 			int _type = IE;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// Waipr.g:65:5: ( ';' )
-			// Waipr.g:65:7: ';'
+			// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:65:5: ( ';' )
+			// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:65:7: ';'
 			{
 			match(';'); 
 			}
@@ -392,10 +390,10 @@ public class WaiprLexer extends Lexer {
 		try {
 			int _type = NUMBER;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// Waipr.g:66:8: ( ( '0' .. '9' )+ ( '.' ( '0' .. '9' )+ )? )
-			// Waipr.g:66:12: ( '0' .. '9' )+ ( '.' ( '0' .. '9' )+ )?
+			// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:66:8: ( ( '0' .. '9' )+ ( '.' ( '0' .. '9' )+ )? )
+			// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:66:12: ( '0' .. '9' )+ ( '.' ( '0' .. '9' )+ )?
 			{
-			// Waipr.g:66:12: ( '0' .. '9' )+
+			// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:66:12: ( '0' .. '9' )+
 			int cnt2=0;
 			loop2:
 			while (true) {
@@ -407,7 +405,7 @@ public class WaiprLexer extends Lexer {
 
 				switch (alt2) {
 				case 1 :
-					// Waipr.g:
+					// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:
 					{
 					if ( (input.LA(1) >= '0' && input.LA(1) <= '9') ) {
 						input.consume();
@@ -428,7 +426,7 @@ public class WaiprLexer extends Lexer {
 				cnt2++;
 			}
 
-			// Waipr.g:66:24: ( '.' ( '0' .. '9' )+ )?
+			// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:66:24: ( '.' ( '0' .. '9' )+ )?
 			int alt4=2;
 			int LA4_0 = input.LA(1);
 			if ( (LA4_0=='.') ) {
@@ -436,10 +434,10 @@ public class WaiprLexer extends Lexer {
 			}
 			switch (alt4) {
 				case 1 :
-					// Waipr.g:66:25: '.' ( '0' .. '9' )+
+					// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:66:25: '.' ( '0' .. '9' )+
 					{
 					match('.'); 
-					// Waipr.g:66:29: ( '0' .. '9' )+
+					// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:66:29: ( '0' .. '9' )+
 					int cnt3=0;
 					loop3:
 					while (true) {
@@ -451,7 +449,7 @@ public class WaiprLexer extends Lexer {
 
 						switch (alt3) {
 						case 1 :
-							// Waipr.g:
+							// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:
 							{
 							if ( (input.LA(1) >= '0' && input.LA(1) <= '9') ) {
 								input.consume();
@@ -493,10 +491,10 @@ public class WaiprLexer extends Lexer {
 		try {
 			int _type = WS;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// Waipr.g:67:4: ( ( ( '//' ( . )+ ( ( '\\r' )? '\\n' ) ) | ' ' | '\\t' | '\\n' | '\\r' )+ )
-			// Waipr.g:67:6: ( ( '//' ( . )+ ( ( '\\r' )? '\\n' ) ) | ' ' | '\\t' | '\\n' | '\\r' )+
+			// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:67:4: ( ( ( '//' ( . )+ ( ( '\\r' )? '\\n' ) ) | ' ' | '\\t' | '\\n' | '\\r' )+ )
+			// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:67:6: ( ( '//' ( . )+ ( ( '\\r' )? '\\n' ) ) | ' ' | '\\t' | '\\n' | '\\r' )+
 			{
-			// Waipr.g:67:6: ( ( '//' ( . )+ ( ( '\\r' )? '\\n' ) ) | ' ' | '\\t' | '\\n' | '\\r' )+
+			// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:67:6: ( ( '//' ( . )+ ( ( '\\r' )? '\\n' ) ) | ' ' | '\\t' | '\\n' | '\\r' )+
 			int cnt7=0;
 			loop7:
 			while (true) {
@@ -530,14 +528,14 @@ public class WaiprLexer extends Lexer {
 				}
 				switch (alt7) {
 				case 1 :
-					// Waipr.g:67:7: ( '//' ( . )+ ( ( '\\r' )? '\\n' ) )
+					// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:67:7: ( '//' ( . )+ ( ( '\\r' )? '\\n' ) )
 					{
-					// Waipr.g:67:7: ( '//' ( . )+ ( ( '\\r' )? '\\n' ) )
-					// Waipr.g:67:8: '//' ( . )+ ( ( '\\r' )? '\\n' )
+					// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:67:7: ( '//' ( . )+ ( ( '\\r' )? '\\n' ) )
+					// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:67:8: '//' ( . )+ ( ( '\\r' )? '\\n' )
 					{
 					match("//"); 
 
-					// Waipr.g:67:13: ( . )+
+					// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:67:13: ( . )+
 					int cnt5=0;
 					loop5:
 					while (true) {
@@ -555,7 +553,7 @@ public class WaiprLexer extends Lexer {
 
 						switch (alt5) {
 						case 1 :
-							// Waipr.g:67:13: .
+							// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:67:13: .
 							{
 							matchAny(); 
 							}
@@ -569,10 +567,10 @@ public class WaiprLexer extends Lexer {
 						cnt5++;
 					}
 
-					// Waipr.g:67:16: ( ( '\\r' )? '\\n' )
-					// Waipr.g:67:17: ( '\\r' )? '\\n'
+					// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:67:16: ( ( '\\r' )? '\\n' )
+					// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:67:17: ( '\\r' )? '\\n'
 					{
-					// Waipr.g:67:17: ( '\\r' )?
+					// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:67:17: ( '\\r' )?
 					int alt6=2;
 					int LA6_0 = input.LA(1);
 					if ( (LA6_0=='\r') ) {
@@ -580,7 +578,7 @@ public class WaiprLexer extends Lexer {
 					}
 					switch (alt6) {
 						case 1 :
-							// Waipr.g:67:17: '\\r'
+							// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:67:17: '\\r'
 							{
 							match('\r'); 
 							}
@@ -596,25 +594,25 @@ public class WaiprLexer extends Lexer {
 					}
 					break;
 				case 2 :
-					// Waipr.g:67:30: ' '
+					// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:67:30: ' '
 					{
 					match(' '); 
 					}
 					break;
 				case 3 :
-					// Waipr.g:67:35: '\\t'
+					// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:67:35: '\\t'
 					{
 					match('\t'); 
 					}
 					break;
 				case 4 :
-					// Waipr.g:67:41: '\\n'
+					// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:67:41: '\\n'
 					{
 					match('\n'); 
 					}
 					break;
 				case 5 :
-					// Waipr.g:67:47: '\\r'
+					// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:67:47: '\\r'
 					{
 					match('\r'); 
 					}
@@ -645,11 +643,11 @@ public class WaiprLexer extends Lexer {
 		try {
 			int _type = TEXT;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// Waipr.g:69:5: ( '\"' ( ESC_SEQ |~ ( '\\\\' | '\"' ) )* '\"' )
-			// Waipr.g:69:8: '\"' ( ESC_SEQ |~ ( '\\\\' | '\"' ) )* '\"'
+			// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:69:5: ( '\"' ( ESC_SEQ |~ ( '\\\\' | '\"' ) )* '\"' )
+			// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:69:8: '\"' ( ESC_SEQ |~ ( '\\\\' | '\"' ) )* '\"'
 			{
 			match('\"'); 
-			// Waipr.g:69:12: ( ESC_SEQ |~ ( '\\\\' | '\"' ) )*
+			// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:69:12: ( ESC_SEQ |~ ( '\\\\' | '\"' ) )*
 			loop8:
 			while (true) {
 				int alt8=3;
@@ -663,14 +661,14 @@ public class WaiprLexer extends Lexer {
 
 				switch (alt8) {
 				case 1 :
-					// Waipr.g:69:14: ESC_SEQ
+					// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:69:14: ESC_SEQ
 					{
 					mESC_SEQ(); 
 
 					}
 					break;
 				case 2 :
-					// Waipr.g:69:24: ~ ( '\\\\' | '\"' )
+					// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:69:24: ~ ( '\\\\' | '\"' )
 					{
 					if ( (input.LA(1) >= '\u0000' && input.LA(1) <= '!')||(input.LA(1) >= '#' && input.LA(1) <= '[')||(input.LA(1) >= ']' && input.LA(1) <= '\uFFFF') ) {
 						input.consume();
@@ -703,8 +701,8 @@ public class WaiprLexer extends Lexer {
 	// $ANTLR start "HEX_DIGIT"
 	public final void mHEX_DIGIT() throws RecognitionException {
 		try {
-			// Waipr.g:74:11: ( ( '0' .. '9' | 'a' .. 'f' | 'A' .. 'F' ) )
-			// Waipr.g:
+			// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:74:11: ( ( '0' .. '9' | 'a' .. 'f' | 'A' .. 'F' ) )
+			// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:
 			{
 			if ( (input.LA(1) >= '0' && input.LA(1) <= '9')||(input.LA(1) >= 'A' && input.LA(1) <= 'F')||(input.LA(1) >= 'a' && input.LA(1) <= 'f') ) {
 				input.consume();
@@ -726,7 +724,7 @@ public class WaiprLexer extends Lexer {
 	// $ANTLR start "ESC_SEQ"
 	public final void mESC_SEQ() throws RecognitionException {
 		try {
-			// Waipr.g:78:5: ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | '\\\"' | '\\'' | '\\\\' ) | UNICODE_ESC | OCTAL_ESC )
+			// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:78:5: ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | '\\\"' | '\\'' | '\\\\' ) | UNICODE_ESC | OCTAL_ESC )
 			int alt9=3;
 			int LA9_0 = input.LA(1);
 			if ( (LA9_0=='\\') ) {
@@ -781,7 +779,7 @@ public class WaiprLexer extends Lexer {
 
 			switch (alt9) {
 				case 1 :
-					// Waipr.g:78:9: '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | '\\\"' | '\\'' | '\\\\' )
+					// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:78:9: '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | '\\\"' | '\\'' | '\\\\' )
 					{
 					match('\\'); 
 					if ( input.LA(1)=='\"'||input.LA(1)=='\''||input.LA(1)=='\\'||input.LA(1)=='b'||input.LA(1)=='f'||input.LA(1)=='n'||input.LA(1)=='r'||input.LA(1)=='t' ) {
@@ -795,14 +793,14 @@ public class WaiprLexer extends Lexer {
 					}
 					break;
 				case 2 :
-					// Waipr.g:79:9: UNICODE_ESC
+					// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:79:9: UNICODE_ESC
 					{
 					mUNICODE_ESC(); 
 
 					}
 					break;
 				case 3 :
-					// Waipr.g:80:9: OCTAL_ESC
+					// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:80:9: OCTAL_ESC
 					{
 					mOCTAL_ESC(); 
 
@@ -820,7 +818,7 @@ public class WaiprLexer extends Lexer {
 	// $ANTLR start "OCTAL_ESC"
 	public final void mOCTAL_ESC() throws RecognitionException {
 		try {
-			// Waipr.g:85:5: ( '\\\\' ( '0' .. '3' ) ( '0' .. '7' ) ( '0' .. '7' ) | '\\\\' ( '0' .. '7' ) ( '0' .. '7' ) | '\\\\' ( '0' .. '7' ) )
+			// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:85:5: ( '\\\\' ( '0' .. '3' ) ( '0' .. '7' ) ( '0' .. '7' ) | '\\\\' ( '0' .. '7' ) ( '0' .. '7' ) | '\\\\' ( '0' .. '7' ) )
 			int alt10=3;
 			int LA10_0 = input.LA(1);
 			if ( (LA10_0=='\\') ) {
@@ -878,7 +876,7 @@ public class WaiprLexer extends Lexer {
 
 			switch (alt10) {
 				case 1 :
-					// Waipr.g:85:9: '\\\\' ( '0' .. '3' ) ( '0' .. '7' ) ( '0' .. '7' )
+					// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:85:9: '\\\\' ( '0' .. '3' ) ( '0' .. '7' ) ( '0' .. '7' )
 					{
 					match('\\'); 
 					if ( (input.LA(1) >= '0' && input.LA(1) <= '3') ) {
@@ -908,7 +906,7 @@ public class WaiprLexer extends Lexer {
 					}
 					break;
 				case 2 :
-					// Waipr.g:86:9: '\\\\' ( '0' .. '7' ) ( '0' .. '7' )
+					// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:86:9: '\\\\' ( '0' .. '7' ) ( '0' .. '7' )
 					{
 					match('\\'); 
 					if ( (input.LA(1) >= '0' && input.LA(1) <= '7') ) {
@@ -930,7 +928,7 @@ public class WaiprLexer extends Lexer {
 					}
 					break;
 				case 3 :
-					// Waipr.g:87:9: '\\\\' ( '0' .. '7' )
+					// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:87:9: '\\\\' ( '0' .. '7' )
 					{
 					match('\\'); 
 					if ( (input.LA(1) >= '0' && input.LA(1) <= '7') ) {
@@ -955,8 +953,8 @@ public class WaiprLexer extends Lexer {
 	// $ANTLR start "UNICODE_ESC"
 	public final void mUNICODE_ESC() throws RecognitionException {
 		try {
-			// Waipr.g:92:5: ( '\\\\' 'u' HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT )
-			// Waipr.g:92:9: '\\\\' 'u' HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT
+			// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:92:5: ( '\\\\' 'u' HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT )
+			// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:92:9: '\\\\' 'u' HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT
 			{
 			match('\\'); 
 			match('u'); 
@@ -979,131 +977,131 @@ public class WaiprLexer extends Lexer {
 
 	@Override
 	public void mTokens() throws RecognitionException {
-		// Waipr.g:1:8: ( T__14 | T__15 | T__16 | T__17 | T__18 | T__19 | T__20 | T__21 | T__22 | T__23 | T__24 | T__25 | T__26 | ID | IE | NUMBER | WS | TEXT )
+		// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:1:8: ( T__14 | T__15 | T__16 | T__17 | T__18 | T__19 | T__20 | T__21 | T__22 | T__23 | T__24 | T__25 | T__26 | ID | IE | NUMBER | WS | TEXT )
 		int alt11=18;
 		alt11 = dfa11.predict(input);
 		switch (alt11) {
 			case 1 :
-				// Waipr.g:1:10: T__14
+				// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:1:10: T__14
 				{
 				mT__14(); 
 
 				}
 				break;
 			case 2 :
-				// Waipr.g:1:16: T__15
+				// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:1:16: T__15
 				{
 				mT__15(); 
 
 				}
 				break;
 			case 3 :
-				// Waipr.g:1:22: T__16
+				// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:1:22: T__16
 				{
 				mT__16(); 
 
 				}
 				break;
 			case 4 :
-				// Waipr.g:1:28: T__17
+				// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:1:28: T__17
 				{
 				mT__17(); 
 
 				}
 				break;
 			case 5 :
-				// Waipr.g:1:34: T__18
+				// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:1:34: T__18
 				{
 				mT__18(); 
 
 				}
 				break;
 			case 6 :
-				// Waipr.g:1:40: T__19
+				// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:1:40: T__19
 				{
 				mT__19(); 
 
 				}
 				break;
 			case 7 :
-				// Waipr.g:1:46: T__20
+				// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:1:46: T__20
 				{
 				mT__20(); 
 
 				}
 				break;
 			case 8 :
-				// Waipr.g:1:52: T__21
+				// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:1:52: T__21
 				{
 				mT__21(); 
 
 				}
 				break;
 			case 9 :
-				// Waipr.g:1:58: T__22
+				// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:1:58: T__22
 				{
 				mT__22(); 
 
 				}
 				break;
 			case 10 :
-				// Waipr.g:1:64: T__23
+				// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:1:64: T__23
 				{
 				mT__23(); 
 
 				}
 				break;
 			case 11 :
-				// Waipr.g:1:70: T__24
+				// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:1:70: T__24
 				{
 				mT__24(); 
 
 				}
 				break;
 			case 12 :
-				// Waipr.g:1:76: T__25
+				// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:1:76: T__25
 				{
 				mT__25(); 
 
 				}
 				break;
 			case 13 :
-				// Waipr.g:1:82: T__26
+				// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:1:82: T__26
 				{
 				mT__26(); 
 
 				}
 				break;
 			case 14 :
-				// Waipr.g:1:88: ID
+				// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:1:88: ID
 				{
 				mID(); 
 
 				}
 				break;
 			case 15 :
-				// Waipr.g:1:91: IE
+				// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:1:91: IE
 				{
 				mIE(); 
 
 				}
 				break;
 			case 16 :
-				// Waipr.g:1:94: NUMBER
+				// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:1:94: NUMBER
 				{
 				mNUMBER(); 
 
 				}
 				break;
 			case 17 :
-				// Waipr.g:1:101: WS
+				// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:1:101: WS
 				{
 				mWS(); 
 
 				}
 				break;
 			case 18 :
-				// Waipr.g:1:104: TEXT
+				// C:\\Users\\Gyula\\Documents\\NetBeansProjects\\waiprProg\\src\\waiprprog\\Waipr.g:1:104: TEXT
 				{
 				mTEXT(); 
 
